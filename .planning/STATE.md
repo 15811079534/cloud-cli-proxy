@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v4.0
 milestone_name: sing-box 同容器化
 status: ready_to_plan
-last_updated: "2026-05-15T17:47:25.229Z"
-last_activity: 2026-05-15
+last_updated: "2026-11-23"
+last_activity: 2026-11-23
 progress:
   total_phases: 0
   completed_phases: 1
@@ -27,7 +27,7 @@ See: .planning/PROJECT.md (updated 2026-05-14)
 Phase: 54
 Plan: Not started
 Status: Ready to plan
-Last activity: 2026-05-15
+Last activity: 2026-11-23 - 完成 quick 261123-ntf：固定源码架构文档与图形；未改变阶段进度
 
 ## Accumulated Context
 
@@ -77,6 +77,7 @@ v3.6 关键技术决策（已落地，可作为后续里程碑参考）：
 | 260513-fjd | 修复 SubnetThirdOctet 碰撞测试阈值（10 → 40，匹配生日悖论期望） | 2026-05-13 | 0def841 | [260513-fjd-subnetthirdoctet](./quick/260513-fjd-subnetthirdoctet/) |
 | 260513-gii | 修复 UpsertHost SQL 占位符不匹配（移除孤立的 $13，POST /v1/admin/hosts 500） | 2026-05-13 | 04636fd | [260513-gii-upserthost-sql](./quick/260513-gii-upserthost-sql/) |
 | 260513-kru | 修复 worker netns 获取失败（增加重试 + 容器状态检查 + 延迟） | 2026-05-13 | f1c3a35 | [260513-kru-worker-netns](./quick/260513-kru-worker-netns/) |
+| 261123-ntf | 当前源码架构图、迁移边界与 README 导航；文档分支交付 | 2026-11-23 | 本地 1f00157（远端提交另行生成，见 SUMMARY） | [261123-ntf-readme](./quick/261123-ntf-readme/261123-ntf-PLAN.md) |
 
 ### Roadmap Evolution
 

@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Repository architecture documentation" version="26.0.0" type="device">
+  <diagram id="logical" name="01 · 逻辑分层">
+    <mxGraphModel dx="1600" dy="1324" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1324" math="0" shadow="0" background="#FFFFFF" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="accent" value="" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=0;strokeColor=none;fillColor=#087F8C;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="40" width="7" height="70" />
+        </mxCell>
+        <mxCell id="title" value="Cloud CLI Proxy 云端开发环境 · 逻辑分层" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=29;fontColor=#142A46;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="74" y="31" width="1290" height="58" />
+        </mxCell>
+        <mxCell id="status" value="当前源码视图 / 01" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=right;verticalAlign=middle;fontSize=16;fontColor=#245FA8;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1370" y="41" width="180" height="31" />
+        </mxCell>
+        <mxCell id="scope" value="Go 控制面、本地 CLI、React 站点与内置 sing-box 的用户容器" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=17;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="76" y="94" width="1470" height="31" />
+        </mxCell>
+        <mxCell id="baseline" value="15811079534/cloud-cli-proxy  ·  main @ b794026  ·  2026-11-23" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=15;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="76" y="134" width="1470" height="28" />
+        </mxCell>
+        <mxCell id="layer0" value="" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=8;fillColor=#F0F6FD;strokeColor=#CEDDEE;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="202" width="1280" height="166" />
+        </mxCell>
+        <mxCell id="layer0-num" value="01 / LAYER" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#087F8C;fontStyle=1;spacing=0;" vertex="1" parent="layer0">
+          <mxGeometry as="geometry" x="20" y="14" width="190" height="27" />
+        </mxCell>
+        <mxCell id="layer0-title" value="接入与交互" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=23;fontColor=#142A46;fontStyle=1;spacing=0;" vertex="1" parent="layer0">
+          <mxGeometry as="geometry" x="20" y="45" width="190" height="62" />
+        </mxCell>
+        <mxCell id="layer0-sub" value="浏览器与本地终端" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=15;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="layer0">
+          <mxGeometry as="geometry" x="20" y="111" width="190" height="38" />
+        </mxCell>
+        <mxCell id="layer0-node0" value="&lt;b&gt;管理与用户页面&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;React · TanStack Router / Query&lt;br&gt;用户、主机、出口与任务界面&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#CEDDEE;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=21;" vertex="1" parent="layer0">
+          <mxGeometry as="geometry" x="236.0" y="27" width="329.3333333333333" height="94" />
+        </mxCell>
+        <mxCell id="layer0-node1" value="&lt;b&gt;本地 cloud-claude&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;入口认证、SSH、文件映射&lt;br&gt;会话恢复与可选本地命令代理&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#CEDDEE;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=21;" vertex="1" parent="layer0">
+          <mxGeometry as="geometry" x="583.3333333333333" y="27" width="329.3333333333333" height="94" />
+        </mxCell>
+        <mxCell id="layer0-node2" value="&lt;b&gt;Nginx 与 SSH 接入&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;静态站点反代 HTTP API&lt;br&gt;控制面内 SSH Proxy 转发会话&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#CEDDEE;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=21;" vertex="1" parent="layer0">
+          <mxGeometry as="geometry" x="930.6666666666666" y="27" width="329.3333333333333" height="94" />
+        </mxCell>
+        <mxCell id="layer1" value="" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=8;fillColor=#EFFAF8;strokeColor=#C7E4DF;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="400" width="1280" height="166" />
+        </mxCell>
+        <mxCell id="layer1-num" value="02 / LAYER" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#087F8C;fontStyle=1;spacing=0;" vertex="1" parent="layer1">
+          <mxGeometry as="geometry" x="20" y="14" width="190" height="27" />
+        </mxCell>
+        <mxCell id="layer1-title" value="控制面业务" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=23;fontColor=#142A46;fontStyle=1;spacing=0;" vertex="1" parent="layer1">
+          <mxGeometry as="geometry" x="20" y="45" width="190" height="62" />
+        </mxCell>
+        <mxCell id="layer1-sub" value="一个 Go 应用内的职责" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=15;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="layer1">
+          <mxGeometry as="geometry" x="20" y="111" width="190" height="38" />
+        </mxCell>
+        <mxCell id="layer1-node0" value="&lt;b&gt;HTTP 路由与身份&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;登录、角色化管理与用户接口&lt;br&gt;entry 接口返回连接信息&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#C7E4DF;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=21;" vertex="1" parent="layer1">
+          <mxGeometry as="geometry" x="236.0" y="27" width="329.3333333333333" height="94" />
+        </mxCell>
+        <mxCell id="layer1-node1" value="&lt;b&gt;生命周期编排&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;写入任务记录后 goroutine 派发&lt;br&gt;创建、启动、停止与重建&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#C7E4DF;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=21;" vertex="1" parent="layer1">
+          <mxGeometry as="geometry" x="583.3333333333333" y="27" width="329.3333333333333" height="94" />
+        </mxCell>
+        <mxCell id="layer1-node2" value="&lt;b&gt;治理与状态&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;到期扫描、状态协调、镜像缓存&lt;br&gt;任务进度与事件广播&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#C7E4DF;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=21;" vertex="1" parent="layer1">
+          <mxGeometry as="geometry" x="930.6666666666666" y="27" width="329.3333333333333" height="94" />
+        </mxCell>
+        <mxCell id="layer-edge1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7187A2;strokeWidth=2;fontFamily=Noto Sans CJK SC;fontColor=#7187A2;fontSize=15;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;" edge="1" source="layer0" target="layer1" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="layer2" value="" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=8;fillColor=#F6F3FC;strokeColor=#DED4EC;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="598" width="1280" height="166" />
+        </mxCell>
+        <mxCell id="layer2-num" value="03 / LAYER" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#087F8C;fontStyle=1;spacing=0;" vertex="1" parent="layer2">
+          <mxGeometry as="geometry" x="20" y="14" width="190" height="27" />
+        </mxCell>
+        <mxCell id="layer2-title" value="宿主执行" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=23;fontColor=#142A46;fontStyle=1;spacing=0;" vertex="1" parent="layer2">
+          <mxGeometry as="geometry" x="20" y="45" width="190" height="62" />
+        </mxCell>
+        <mxCell id="layer2-sub" value="Compose 内嵌模式" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=15;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="layer2">
+          <mxGeometry as="geometry" x="20" y="111" width="190" height="38" />
+        </mxCell>
+        <mxCell id="layer2-node0" value="&lt;b&gt;内嵌 Worker&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;同进程执行 Docker 命令&lt;br&gt;回写任务、主机与错误状态&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#DED4EC;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=21;" vertex="1" parent="layer2">
+          <mxGeometry as="geometry" x="236.0" y="27" width="329.3333333333333" height="94" />
+        </mxCell>
+        <mxCell id="layer2-node1" value="&lt;b&gt;单容器网络提供器&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;PrepareGateway 写入配置&lt;br&gt;PrepareHost 做网络验证&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#DED4EC;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=21;" vertex="1" parent="layer2">
+          <mxGeometry as="geometry" x="583.3333333333333" y="27" width="329.3333333333333" height="94" />
+        </mxCell>
+        <mxCell id="layer2-node2" value="&lt;b&gt;运行资源装配&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;镜像锁、用户目录、账号状态卷&lt;br&gt;配置以只读 bind mount 注入&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#DED4EC;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=21;" vertex="1" parent="layer2">
+          <mxGeometry as="geometry" x="930.6666666666666" y="27" width="329.3333333333333" height="94" />
+        </mxCell>
+        <mxCell id="layer-edge2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7187A2;strokeWidth=2;fontFamily=Noto Sans CJK SC;fontColor=#7187A2;fontSize=15;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;" edge="1" source="layer1" target="layer2" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="layer3" value="" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=8;fillColor=#F4F7FA;strokeColor=#D7E0EA;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="796" width="1280" height="166" />
+        </mxCell>
+        <mxCell id="layer3-num" value="04 / LAYER" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#087F8C;fontStyle=1;spacing=0;" vertex="1" parent="layer3">
+          <mxGeometry as="geometry" x="20" y="14" width="190" height="27" />
+        </mxCell>
+        <mxCell id="layer3-title" value="用户运行环境" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=23;fontColor=#142A46;fontStyle=1;spacing=0;" vertex="1" parent="layer3">
+          <mxGeometry as="geometry" x="20" y="45" width="190" height="62" />
+        </mxCell>
+        <mxCell id="layer3-sub" value="用户镜像内的进程" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=15;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="layer3">
+          <mxGeometry as="geometry" x="20" y="111" width="190" height="38" />
+        </mxCell>
+        <mxCell id="layer3-node0" value="&lt;b&gt;开发会话&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;OpenSSH · Claude Code · tmux&lt;br&gt;远程模式含 KasmVNC 桌面&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#D7E0EA;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=21;" vertex="1" parent="layer3">
+          <mxGeometry as="geometry" x="236.0" y="27" width="329.3333333333333" height="94" />
+        </mxCell>
+        <mxCell id="layer3-node1" value="&lt;b&gt;容器内网络&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;sing-box tun 与 nft 默认拒绝&lt;br&gt;默认公网出口指向代理节点&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#D7E0EA;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=21;" vertex="1" parent="layer3">
+          <mxGeometry as="geometry" x="583.3333333333333" y="27" width="329.3333333333333" height="94" />
+        </mxCell>
+        <mxCell id="layer3-node2" value="&lt;b&gt;工作目录与状态&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;CLI 按能力选择映射策略&lt;br&gt;持久卷与宿主目录独立于 PG&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#D7E0EA;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=21;" vertex="1" parent="layer3">
+          <mxGeometry as="geometry" x="930.6666666666666" y="27" width="329.3333333333333" height="94" />
+        </mxCell>
+        <mxCell id="layer-edge3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7187A2;strokeWidth=2;fontFamily=Noto Sans CJK SC;fontColor=#7187A2;fontSize=15;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;" edge="1" source="layer2" target="layer3" parent="1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="crosscut" value="" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=8;fillColor=#F7F9FC;strokeColor=#D7E0EA;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1352" y="202" width="200" height="760" />
+        </mxCell>
+        <mxCell id="cross-title" value="横向能力" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;fontSize=22;fontColor=#142A46;fontStyle=1;spacing=0;" vertex="1" parent="crosscut">
+          <mxGeometry as="geometry" x="15" y="18" width="170" height="40" />
+        </mxCell>
+        <mxCell id="cross0" value="&lt;b&gt;身份边界&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;管理接口鉴权&lt;br&gt;入口另行认证&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#CDD8E6;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=20;" vertex="1" parent="crosscut">
+          <mxGeometry as="geometry" x="14" y="80" width="172" height="112" />
+        </mxCell>
+        <mxCell id="cross1" value="&lt;b&gt;模式差异&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;内嵌同进程&lt;br&gt;保留套接字契约&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#CDD8E6;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=20;" vertex="1" parent="crosscut">
+          <mxGeometry as="geometry" x="14" y="218" width="172" height="112" />
+        </mxCell>
+        <mxCell id="cross2" value="&lt;b&gt;迁移边界&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;未接旧白名单&lt;br&gt;保留历史网关&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#CDD8E6;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=20;" vertex="1" parent="crosscut">
+          <mxGeometry as="geometry" x="14" y="356" width="172" height="112" />
+        </mxCell>
+        <mxCell id="cross3" value="&lt;b&gt;验证范围&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;描述代码与配置&lt;br&gt;未作运行验收&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#CDD8E6;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=20;" vertex="1" parent="crosscut">
+          <mxGeometry as="geometry" x="14" y="494" width="172" height="112" />
+        </mxCell>
+        <mxCell id="resources" value="" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=8;fillColor=#F8FAFC;strokeColor=#D7E0EA;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1002" width="1504" height="152" />
+        </mxCell>
+        <mxCell id="res-title" value="运行资源与外部依赖" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=18;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="resources">
+          <mxGeometry as="geometry" x="18" y="12" width="1466" height="28" />
+        </mxCell>
+        <mxCell id="resource0" value="&lt;b&gt;PostgreSQL&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;用户、主机、出口绑定与任务&lt;br&gt;事件、账号、密钥及旧白名单数据&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#CDD8E6;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=20;" vertex="1" parent="resources">
+          <mxGeometry as="geometry" x="18.0" y="53" width="353.5" height="80" />
+        </mxCell>
+        <mxCell id="resource1" value="&lt;b&gt;Docker 与宿主存储&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;动态用户容器、目录与 named volume&lt;br&gt;配置注入源保存在 DATA_DIR&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#CDD8E6;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=20;" vertex="1" parent="resources">
+          <mxGeometry as="geometry" x="389.5" y="53" width="353.5" height="80" />
+        </mxCell>
+        <mxCell id="resource2" value="&lt;b&gt;外部代理与互联网&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;默认公网流量经绑定代理&lt;br&gt;直连例外与防火墙需联合验证&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#CDD8E6;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=20;" vertex="1" parent="resources">
+          <mxGeometry as="geometry" x="761.0" y="53" width="353.5" height="80" />
+        </mxCell>
+        <mxCell id="resource3" value="&lt;b&gt;客户端工作目录&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;SSHFS / HotSync / mergerfs 路径&lt;br&gt;按运行能力与所选模式调度&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#CDD8E6;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=20;" vertex="1" parent="resources">
+          <mxGeometry as="geometry" x="1132.5" y="53" width="353.5" height="80" />
+        </mxCell>
+        <mxCell id="note0" value="逻辑层是职责归纳；API、SSH Proxy、调度器与 embedded Worker 在同一控制面进程。" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1189" width="1504" height="29" />
+        </mxCell>
+        <mxCell id="note1" value="默认 Linux 实现已采用单容器网络；旧旁车、独立代理部署入口和迁移限制见正文。" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1221" width="1504" height="29" />
+        </mxCell>
+        <mxCell id="note2" value="本次只核对公开源码；没有执行容器启动、网络隔离验收或部署。" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1253" width="1504" height="29" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="runtime" name="02 · 核心运行结构">
+    <mxGraphModel dx="1600" dy="1262" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1262" math="0" shadow="0" background="#FFFFFF" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="accent" value="" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=0;strokeColor=none;fillColor=#087F8C;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="40" width="7" height="70" />
+        </mxCell>
+        <mxCell id="title" value="Cloud CLI Proxy 云端开发环境 · 核心运行结构" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=29;fontColor=#142A46;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="74" y="31" width="1290" height="58" />
+        </mxCell>
+        <mxCell id="status" value="当前源码视图 / 02" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=right;verticalAlign=middle;fontSize=16;fontColor=#245FA8;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1370" y="41" width="180" height="31" />
+        </mxCell>
+        <mxCell id="scope" value="Go 控制面、本地 CLI、React 站点与内置 sing-box 的用户容器" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=17;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="76" y="94" width="1470" height="31" />
+        </mxCell>
+        <mxCell id="baseline" value="15811079534/cloud-cli-proxy  ·  main @ b794026  ·  2026-11-23" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=15;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="76" y="134" width="1470" height="28" />
+        </mxCell>
+        <mxCell id="system" value="" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=8;fillColor=#F8FBFE;strokeColor=#A9BBD0;strokeWidth=1.4;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="430" y="193" width="704" height="832" />
+        </mxCell>
+        <mxCell id="system-title" value="本仓库系统边界" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=18;fontColor=#52637A;fontStyle=1;spacing=0;" vertex="1" parent="system">
+          <mxGeometry as="geometry" x="15" y="8" width="674" height="30" />
+        </mxCell>
+        <mxCell id="browser" value="&lt;b&gt;浏览器使用者&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot; color=&quot;#52637A&quot;&gt;管理员 / 普通用户&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;访问管理站点&lt;br&gt;查看主机、任务和事件&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#EEF1F5;strokeColor=#BFC9D6;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="72" y="250" width="280" height="170" />
+        </mxCell>
+        <mxCell id="web" value="&lt;b&gt;管理站点&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot; color=&quot;#52637A&quot;&gt;Nginx · React 静态资源&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;浏览器执行 SPA&lt;br&gt;反代 /v1 与 /entry&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#EBF3FD;strokeColor=#91B4DF;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=22;" vertex="1" parent="system">
+          <mxGeometry as="geometry" x="22" y="57" width="280" height="170" />
+        </mxCell>
+        <mxCell id="cp" value="&lt;b&gt;控制面进程&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot; color=&quot;#52637A&quot;&gt;Go · 8080 / 2222&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;API · SSH Proxy · 周期任务&lt;br&gt;内嵌 Worker 调用 Docker&lt;br&gt;调度并回写运行状态&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#EBF3FD;strokeColor=#91B4DF;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=22;" vertex="1" parent="system">
+          <mxGeometry as="geometry" x="402" y="57" width="280" height="170" />
+        </mxCell>
+        <mxCell id="storage" value="&lt;b&gt;宿主配置与卷&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot; color=&quot;#52637A&quot;&gt;目录 / Docker volume&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;网络配置注入源与用户目录&lt;br&gt;可选 Claude 账号状态卷&lt;br&gt;与关系数据库分别存放&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#EAF7F4;strokeColor=#86BFB4;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=22;" vertex="1" parent="system">
+          <mxGeometry as="geometry" x="22" y="347" width="280" height="170" />
+        </mxCell>
+        <mxCell id="db" value="&lt;b&gt;平台状态库&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot; color=&quot;#52637A&quot;&gt;PostgreSQL / pgx&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;用户、主机、绑定、任务&lt;br&gt;事件、账号、密钥与治理数据&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#EAF7F4;strokeColor=#86BFB4;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=22;" vertex="1" parent="system">
+          <mxGeometry as="geometry" x="402" y="347" width="280" height="170" />
+        </mxCell>
+        <mxCell id="operator" value="&lt;b&gt;终端使用者&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot; color=&quot;#52637A&quot;&gt;用户电脑&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;运行 cloud-claude&lt;br&gt;进入远端开发会话&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#EEF1F5;strokeColor=#BFC9D6;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="72" y="830" width="280" height="170" />
+        </mxCell>
+        <mxCell id="cli" value="&lt;b&gt;本地 cloud-claude&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot; color=&quot;#52637A&quot;&gt;Go / Cobra · 用户电脑&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;入口认证、SSH 与文件映射&lt;br&gt;会话恢复与可选命令代理&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#EBF3FD;strokeColor=#91B4DF;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=22;" vertex="1" parent="system">
+          <mxGeometry as="geometry" x="22" y="637" width="280" height="170" />
+        </mxCell>
+        <mxCell id="managed" value="&lt;b&gt;用户容器&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot; color=&quot;#52637A&quot;&gt;managed-user · 单容器&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;sshd + Claude Code + tmux&lt;br&gt;sing-box tun + nft&lt;br&gt;远程模式含 KasmVNC&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#EBF3FD;strokeColor=#91B4DF;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=22;" vertex="1" parent="system">
+          <mxGeometry as="geometry" x="402" y="637" width="280" height="170" />
+        </mxCell>
+        <mxCell id="proxy" value="&lt;b&gt;已绑定代理服务&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot; color=&quot;#52637A&quot;&gt;外部出口与互联网&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:18px&quot; color=&quot;#52637A&quot;&gt;图示默认公网出口&lt;br&gt;代理与私网直连例外见正文&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;rounded=1;arcSize=12;fillColor=#EEF1F5;strokeColor=#BFC9D6;strokeWidth=1.3;align=center;verticalAlign=middle;spacing=12;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1212" y="830" width="280" height="170" />
+        </mxCell>
+        <mxCell id="browser-web" value="HTTP" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#245FA8;strokeWidth=2;fontFamily=Noto Sans CJK SC;fontColor=#245FA8;fontSize=16;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;" edge="1" source="browser" target="web" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0.0" y="-24.92" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="web-cp" value="API/SSE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#245FA8;strokeWidth=2;fontFamily=Noto Sans CJK SC;fontColor=#245FA8;fontSize=16;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;" edge="1" source="web" target="cp" parent="system">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0.0" y="-24.92" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cp-db" value="SQL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#245FA8;strokeWidth=2;fontFamily=Noto Sans CJK SC;fontColor=#245FA8;fontSize=16;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;" edge="1" source="cp" target="db" parent="system">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="-34.047" y="0.0" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cp-storage" value="装配配置" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#245FA8;strokeWidth=2;fontFamily=Noto Sans CJK SC;fontColor=#245FA8;fontSize=16;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;sourcePortConstraint=west;targetPortConstraint=east;" edge="1" source="cp" target="storage" parent="system">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="-51.0" y="0.0" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="operator-cli" value="命令" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#245FA8;strokeWidth=2;fontFamily=Noto Sans CJK SC;fontColor=#245FA8;fontSize=16;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;" edge="1" source="operator" target="cli" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0.0" y="-24.92" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cli-cp" value="认证与 SSH" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#245FA8;strokeWidth=2;fontFamily=Noto Sans CJK SC;fontColor=#245FA8;fontSize=16;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;sourcePortConstraint=east;targetPortConstraint=west;" edge="1" source="cli" target="cp" parent="system">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="-60.023" y="116.0" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cp-managed" value="管理与 SSH" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#245FA8;strokeWidth=2;fontFamily=Noto Sans CJK SC;fontColor=#245FA8;fontSize=16;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;sourcePortConstraint=east;targetPortConstraint=east;" edge="1" source="cp" target="managed" parent="system">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="60.023" y="0.0" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="managed-storage" value="挂载持久化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#245FA8;strokeWidth=2;fontFamily=Noto Sans CJK SC;fontColor=#245FA8;fontSize=16;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;sourcePortConstraint=west;targetPortConstraint=east;" edge="1" source="managed" target="storage" parent="system">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="59.0" y="0.0" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="managed-proxy" value="代理出口" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#245FA8;strokeWidth=2;fontFamily=Noto Sans CJK SC;fontColor=#245FA8;fontSize=16;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;" edge="1" source="managed" target="proxy" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="offset" x="0.0" y="-24.92" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend" value="图例：蓝色 = 应用单元　绿色 = 数据资源　灰色 = 外部角色/系统　虚线 = 异步交互" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1065" width="1504" height="30" />
+        </mxCell>
+        <mxCell id="note0" value="边界表示本仓的软件范围，不表示同机；CLI 在用户电脑，站点、控制面和容器在服务端。" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1107" width="1504" height="30" />
+        </mxCell>
+        <mxCell id="note1" value="“管理与 SSH”合并 Docker 生命周期调用与 SSH 转发；省略 Docker daemon、文件映射细线和桌面转发。" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1141" width="1504" height="30" />
+        </mxCell>
+        <mxCell id="note2" value="socket server 代码仍在，但当前 cmd 未提供独立 host-agent 入口；本图不虚构该部署进程。" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans CJK SC;fontColor=#142A46;fontSize=20;text;fillColor=none;strokeColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#52637A;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="48" y="1175" width="1504" height="30" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

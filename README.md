@@ -11,7 +11,7 @@
 [![CI](https://github.com/ZaneL1u/cloud-cli-proxy/actions/workflows/ci.yml/badge.svg)](https://github.com/ZaneL1u/cloud-cli-proxy/actions/workflows/ci.yml)
 [![Images](https://github.com/ZaneL1u/cloud-cli-proxy/actions/workflows/build-images.yml/badge.svg)](https://github.com/ZaneL1u/cloud-cli-proxy/actions/workflows/build-images.yml)
 [![Release](https://img.shields.io/github/v/release/ZaneL1u/cloud-cli-proxy)](https://github.com/ZaneL1u/cloud-cli-proxy/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 [English](README.en.md) | [Documentation](https://zanel1u.github.io/cloud-cli-proxy/)
 
@@ -385,4 +385,12 @@ make release VERSION=1.5.0
 
 ## 许可证
 
-[MIT](LICENSE)
+MIT（当前源码基线未包含 LICENSE 文件）
+
+## 当前源码架构
+
+[逻辑分层、运行模式与源码依据](docs/zh/guide/architecture.md) · [可编辑 draw.io 源图](docs/diagrams/cloud-cli-proxy-architecture.drawio)
+
+当前视图已区分单容器网络、Compose 内嵌 Worker 和历史旁车说明。
+
+![Cloud CLI Proxy 逻辑架构](docs/diagrams/cloud-cli-proxy-logical.png)
